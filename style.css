@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(252, 194, 172);
+}
+
+.header{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.waffleInfo{
+    font-weight: bold;
+    color: brown;
+    font-size: 20px;
+}
+
+.olHead{
+    color: rgb(158, 9, 9);
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 1%;
+}
+
+.items{
+    color: blue;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.important{
+    font-weight: bolder;
+    font-size: 20px;
+    color: firebrick;
+}
+
+.goodbye{
+    color:darkgreen;
+    font-weight: bold;
+}
+
+.design{
+    font-weight: bold;
+    color: purple;
+}
+
+.waffleImgDiv{
+    display: flex;
+    justify-content: center;
+
+}
+
+.waffleImg{
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.waffleImg:hover{
+    opacity: 0.9;
+}
